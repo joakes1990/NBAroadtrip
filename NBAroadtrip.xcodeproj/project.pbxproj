@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0A5FEB01FB65EF7004F61E1 /* TeamManagment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5FEAF1FB65EF7004F61E1 /* TeamManagment.swift */; };
+		D0A5FEB41FB67C4E004F61E1 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5FEB31FB67C4E004F61E1 /* URL.swift */; };
+		D0AEFDC91FB6811A0080E364 /* TeamManagment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5FEAF1FB65EF7004F61E1 /* TeamManagment.swift */; };
+		D0AEFDCA1FB681E30080E364 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5FEB31FB67C4E004F61E1 /* URL.swift */; };
+		D0AEFDCB1FB681FE0080E364 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5E49A1FB63C97008938EF /* Team.swift */; };
+		D0E5E47A1FB63C56008938EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5E4791FB63C56008938EF /* AppDelegate.swift */; };
+		D0E5E47C1FB63C56008938EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5E47B1FB63C56008938EF /* ViewController.swift */; };
+		D0E5E47F1FB63C56008938EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E5E47D1FB63C56008938EF /* Main.storyboard */; };
+		D0E5E4811FB63C56008938EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E5E4801FB63C56008938EF /* Assets.xcassets */; };
+		D0E5E4841FB63C56008938EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E5E4821FB63C56008938EF /* LaunchScreen.storyboard */; };
+		D0E5E48F1FB63C56008938EF /* NBAroadtripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5E48E1FB63C56008938EF /* NBAroadtripTests.swift */; };
+		D0E5E49B1FB63C97008938EF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5E49A1FB63C97008938EF /* Team.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E5E48B1FB63C56008938EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E5E46E1FB63C56008938EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E5E4751FB63C56008938EF;
+			remoteInfo = NBAroadtrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0A5FEAF1FB65EF7004F61E1 /* TeamManagment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManagment.swift; sourceTree = "<group>"; };
+		D0A5FEB31FB67C4E004F61E1 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		D0E5E4761FB63C56008938EF /* NBAroadtrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAroadtrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E5E4791FB63C56008938EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0E5E47B1FB63C56008938EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0E5E47E1FB63C56008938EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0E5E4801FB63C56008938EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E5E4831FB63C56008938EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0E5E4851FB63C56008938EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E5E48A1FB63C56008938EF /* NBAroadtripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBAroadtripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E5E48E1FB63C56008938EF /* NBAroadtripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAroadtripTests.swift; sourceTree = "<group>"; };
+		D0E5E4901FB63C56008938EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E5E49A1FB63C97008938EF /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E5E4731FB63C56008938EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E5E4871FB63C56008938EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0A5FEB51FB67C58004F61E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0A5FEB31FB67C4E004F61E1 /* URL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0E5E46D1FB63C56008938EF = {
+			isa = PBXGroup;
+			children = (
+				D0E5E4781FB63C56008938EF /* NBAroadtrip */,
+				D0E5E48D1FB63C56008938EF /* NBAroadtripTests */,
+				D0E5E4771FB63C56008938EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E5E4771FB63C56008938EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5E4761FB63C56008938EF /* NBAroadtrip.app */,
+				D0E5E48A1FB63C56008938EF /* NBAroadtripTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E5E4781FB63C56008938EF /* NBAroadtrip */ = {
+			isa = PBXGroup;
+			children = (
+				D0A5FEB51FB67C58004F61E1 /* Extensions */,
+				D0E5E4991FB63C74008938EF /* Model Data */,
+				D0E5E4791FB63C56008938EF /* AppDelegate.swift */,
+				D0E5E47B1FB63C56008938EF /* ViewController.swift */,
+				D0E5E47D1FB63C56008938EF /* Main.storyboard */,
+				D0E5E4801FB63C56008938EF /* Assets.xcassets */,
+				D0E5E4821FB63C56008938EF /* LaunchScreen.storyboard */,
+				D0E5E4851FB63C56008938EF /* Info.plist */,
+			);
+			path = NBAroadtrip;
+			sourceTree = "<group>";
+		};
+		D0E5E48D1FB63C56008938EF /* NBAroadtripTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5E48E1FB63C56008938EF /* NBAroadtripTests.swift */,
+				D0E5E4901FB63C56008938EF /* Info.plist */,
+			);
+			path = NBAroadtripTests;
+			sourceTree = "<group>";
+		};
+		D0E5E4991FB63C74008938EF /* Model Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5E49A1FB63C97008938EF /* Team.swift */,
+				D0A5FEAF1FB65EF7004F61E1 /* TeamManagment.swift */,
+			);
+			path = "Model Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E5E4751FB63C56008938EF /* NBAroadtrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E5E4931FB63C56008938EF /* Build configuration list for PBXNativeTarget "NBAroadtrip" */;
+			buildPhases = (
+				D0E5E4721FB63C56008938EF /* Sources */,
+				D0E5E4731FB63C56008938EF /* Frameworks */,
+				D0E5E4741FB63C56008938EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBAroadtrip;
+			productName = NBAroadtrip;
+			productReference = D0E5E4761FB63C56008938EF /* NBAroadtrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E5E4891FB63C56008938EF /* NBAroadtripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E5E4961FB63C56008938EF /* Build configuration list for PBXNativeTarget "NBAroadtripTests" */;
+			buildPhases = (
+				D0E5E4861FB63C56008938EF /* Sources */,
+				D0E5E4871FB63C56008938EF /* Frameworks */,
+				D0E5E4881FB63C56008938EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E5E48C1FB63C56008938EF /* PBXTargetDependency */,
+			);
+			name = NBAroadtripTests;
+			productName = NBAroadtripTests;
+			productReference = D0E5E48A1FB63C56008938EF /* NBAroadtripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E5E46E1FB63C56008938EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Oklasoft;
+				TargetAttributes = {
+					D0E5E4751FB63C56008938EF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D0E5E4891FB63C56008938EF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0E5E4751FB63C56008938EF;
+					};
+				};
+			};
+			buildConfigurationList = D0E5E4711FB63C56008938EF /* Build configuration list for PBXProject "NBAroadtrip" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E5E46D1FB63C56008938EF;
+			productRefGroup = D0E5E4771FB63C56008938EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E5E4751FB63C56008938EF /* NBAroadtrip */,
+				D0E5E4891FB63C56008938EF /* NBAroadtripTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E5E4741FB63C56008938EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E5E4841FB63C56008938EF /* LaunchScreen.storyboard in Resources */,
+				D0E5E4811FB63C56008938EF /* Assets.xcassets in Resources */,
+				D0E5E47F1FB63C56008938EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E5E4881FB63C56008938EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E5E4721FB63C56008938EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A5FEB41FB67C4E004F61E1 /* URL.swift in Sources */,
+				D0E5E49B1FB63C97008938EF /* Team.swift in Sources */,
+				D0A5FEB01FB65EF7004F61E1 /* TeamManagment.swift in Sources */,
+				D0E5E47C1FB63C56008938EF /* ViewController.swift in Sources */,
+				D0E5E47A1FB63C56008938EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E5E4861FB63C56008938EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AEFDCB1FB681FE0080E364 /* Team.swift in Sources */,
+				D0AEFDCA1FB681E30080E364 /* URL.swift in Sources */,
+				D0AEFDC91FB6811A0080E364 /* TeamManagment.swift in Sources */,
+				D0E5E48F1FB63C56008938EF /* NBAroadtripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E5E48C1FB63C56008938EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E5E4751FB63C56008938EF /* NBAroadtrip */;
+			targetProxy = D0E5E48B1FB63C56008938EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E5E47D1FB63C56008938EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E5E47E1FB63C56008938EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E5E4821FB63C56008938EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E5E4831FB63C56008938EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E5E4911FB63C56008938EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0E5E4921FB63C56008938EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E5E4941FB63C56008938EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26VT895967;
+				INFOPLIST_FILE = NBAroadtrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oklasoft.NBAroadtrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E5E4951FB63C56008938EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26VT895967;
+				INFOPLIST_FILE = NBAroadtrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oklasoft.NBAroadtrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0E5E4971FB63C56008938EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26VT895967;
+				INFOPLIST_FILE = NBAroadtripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oklasoft.NBAroadtripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBAroadtrip.app/NBAroadtrip";
+			};
+			name = Debug;
+		};
+		D0E5E4981FB63C56008938EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26VT895967;
+				INFOPLIST_FILE = NBAroadtripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oklasoft.NBAroadtripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBAroadtrip.app/NBAroadtrip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E5E4711FB63C56008938EF /* Build configuration list for PBXProject "NBAroadtrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E5E4911FB63C56008938EF /* Debug */,
+				D0E5E4921FB63C56008938EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E5E4931FB63C56008938EF /* Build configuration list for PBXNativeTarget "NBAroadtrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E5E4941FB63C56008938EF /* Debug */,
+				D0E5E4951FB63C56008938EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E5E4961FB63C56008938EF /* Build configuration list for PBXNativeTarget "NBAroadtripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E5E4971FB63C56008938EF /* Debug */,
+				D0E5E4981FB63C56008938EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E5E46E1FB63C56008938EF /* Project object */;
+}
